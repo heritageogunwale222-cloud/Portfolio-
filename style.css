@@ -162,4 +162,22 @@ margin-top:10px;
 
 .contact-form button:hover{
 background:#0097a7;
+}/* Smooth transition for links */
+.nav-links a{
+transition: color 0.3s ease;
+}
+
+/* Smooth shadow for cards */
+.card{
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover{
+transform: scale(1.05);
+box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Smooth scroll for navigation */
+html{
+scroll-behavior: smooth;
 }
