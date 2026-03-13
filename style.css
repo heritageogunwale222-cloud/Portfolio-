@@ -1,0 +1,165 @@
+body{
+font-family:'Poppins',sans-serif;
+margin:0;
+background:#f4f4f4;
+color:#333;
+}
+
+header{
+background:#111;
+color:white;
+padding:15px 30px;
+}
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.nav-links{
+list-style:none;
+display:flex;
+gap:20px;
+}
+
+.nav-links a{
+color:white;
+text-decoration:none;
+font-weight:500;
+}
+
+.nav-links a:hover{
+color:#00bcd4;
+}
+
+.hero{
+text-align:center;
+padding:60px 20px;
+background:white;
+}
+
+.profile-img{
+width:150px;
+border-radius:50%;
+margin-bottom:20px;
+}
+
+.about{
+padding:40px;
+text-align:center;
+}
+
+.skills{
+padding:40px;
+text-align:center;
+}
+
+.skills ul{
+list-style:none;
+padding:0;
+}
+
+.skills li{
+background:#00bcd4;
+color:white;
+display:inline-block;
+padding:8px 15px;
+margin:5px;
+border-radius:5px;
+}
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+
+@media (max-width:768px){
+
+.nav-links{
+flex-direction:column;
+align-items:center;
+}
+
+}/* Projects Page */
+.project-title{
+text-align:center;
+margin-top:30px;
+}
+
+.projects{
+display:flex;
+justify-content:center;
+gap:20px;
+padding:40px;
+flex-wrap:wrap;
+}
+
+.card{
+background:white;
+padding:15px;
+width:250px;
+border-radius:10px;
+box-shadow:0 4px 8px rgba(0,0,0,0.1);
+transition:transform 0.3s ease;
+text-align:center;
+}
+
+.card img{
+width:100%;
+border-radius:10px;
+}
+
+.card:hover{
+transform:scale(1.05);
+}
+
+.card button{
+background:#00bcd4;
+color:white;
+border:none;
+padding:10px;
+cursor:pointer;
+border-radius:5px;
+margin-top:10px;
+}
+
+.card button:hover{
+background:#0097a7;
+}/* Contact Page */
+.contact-title{
+text-align:center;
+margin-top:30px;
+}
+
+.contact-form{
+display:flex;
+flex-direction:column;
+width:300px;
+margin:30px auto;
+gap:10px;
+}
+
+.contact-form input,
+.contact-form textarea{
+padding:10px;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+.contact-form button{
+background:#00bcd4;
+color:white;
+border:none;
+padding:10px;
+cursor:pointer;
+border-radius:5px;
+margin-top:10px;
+}
+
+.contact-form button:hover{
+background:#0097a7;
+}
